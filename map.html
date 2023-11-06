@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+    
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-
+    
         <script>
             L_NO_TOUCH = false;
             L_DISABLE_3D = false;
         </script>
-
+    
     <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
@@ -21,11 +21,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
-
+    
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_a6ec998c5c06825b4f5405390b1f7819 {
+                #map_16141386f7e29455f01bd7e65cb1cd92 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -34,666 +34,437 @@
                 }
                 .leaflet-container { font-size: 1rem; }
             </style>
-
+        
 </head>
 <body>
-
-
-            <div class="folium-map" id="map_a6ec998c5c06825b4f5405390b1f7819" ></div>
-
+    
+    
+            <div class="folium-map" id="map_16141386f7e29455f01bd7e65cb1cd92" ></div>
+        
 </body>
 <script>
-
-
-            var map_a6ec998c5c06825b4f5405390b1f7819 = L.map(
-                "map_a6ec998c5c06825b4f5405390b1f7819",
+    
+    
+            var map_16141386f7e29455f01bd7e65cb1cd92 = L.map(
+                "map_16141386f7e29455f01bd7e65cb1cd92",
                 {
-                    center: [47.6687, -122.3848],
+                    center: [47.67132172631579, -122.35652511578947],
                     crs: L.CRS.EPSG3857,
-                    zoom: 13,
+                    zoom: 12,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
 
+            
 
-
-
-
-            var tile_layer_b9e8c60399d9cf059991f399e23a0dd9 = L.tileLayer(
+        
+    
+            var tile_layer_078ee2ab35b10df2e207e183ee2db26b = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
-
-
-            var marker_2aa38640a2c875dd6f0cd08242291ae9 = L.marker(
-                [47.66190155, -122.377311937],
+            );
+        
+    
+                tile_layer_078ee2ab35b10df2e207e183ee2db26b.addTo(map_16141386f7e29455f01bd7e65cb1cd92);
+    
+            var marker_6823086f637d5f68768f463f81fc839d = L.marker(
+                [47.6867855, -122.3895356],
                 {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
+            ).addTo(map_16141386f7e29455f01bd7e65cb1cd92);
+        
+    
+        var popup_054f3de6dbfaaff2e96e5226e7e12e2f = L.popup({"maxWidth": "100%"});
 
+        
+            
+                var html_822bf63a9a8bdde1e7a15d6b1e302406 = $(`<div id="html_822bf63a9a8bdde1e7a15d6b1e302406" style="width: 100.0%; height: 100.0%;"><b>Date:</b> 9/15/2023<br><b>Location:</b> 2550 NW 80th St., Seattle WA<br><b>Description:</b> 4:00pm 2 Victim(s), struck in face, nothing robbed. 4 Attackers got out of car & asked what kind of iPhones the boys had. Red Hyundai, no plates confirmed stolen.</div>`)[0];
+                popup_054f3de6dbfaaff2e96e5226e7e12e2f.setContent(html_822bf63a9a8bdde1e7a15d6b1e302406);
+            
+        
 
-        var popup_3c6856b9f0eb5a30f97ca055b797dc63 = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_d9f6990fd295855cd6ab6e9907ac0e32 = $(`<div id="html_d9f6990fd295855cd6ab6e9907ac0e32" style="width: 100.0%; height: 100.0%;">Offense: Simple Assault<br>Date: 2023-10-06 14:45:00</div>`)[0];
-                popup_3c6856b9f0eb5a30f97ca055b797dc63.setContent(html_d9f6990fd295855cd6ab6e9907ac0e32);
-
-
-
-        marker_2aa38640a2c875dd6f0cd08242291ae9.bindPopup(popup_3c6856b9f0eb5a30f97ca055b797dc63)
+        marker_6823086f637d5f68768f463f81fc839d.bindPopup(popup_054f3de6dbfaaff2e96e5226e7e12e2f)
         ;
 
-
-
-
-            var marker_29a549db610a485568c545dedec74eb5 = L.marker(
-                [47.66146817, -122.369692489],
+        
+    
+    
+            var marker_b6304dd27752bb566cb529694771864b = L.marker(
+                [47.6813454, -122.381088],
                 {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
+            ).addTo(map_16141386f7e29455f01bd7e65cb1cd92);
+        
+    
+        var popup_aabcf174a078259679d5a8bbb2b39f25 = L.popup({"maxWidth": "100%"});
 
+        
+            
+                var html_fce1f567fabb0994f9f1220e3d3ab71b = $(`<div id="html_fce1f567fabb0994f9f1220e3d3ab71b" style="width: 100.0%; height: 100.0%;"><b>Date:</b> 9/15/2023<br><b>Location:</b> 7300 19th Ave NW, Seattle WA<br><b>Description:</b> 4pm 2 Victim(s), Beaten along w bystander woman, phones robbed. 4 Attackers approached in a car. Small red SUV. Gun</div>`)[0];
+                popup_aabcf174a078259679d5a8bbb2b39f25.setContent(html_fce1f567fabb0994f9f1220e3d3ab71b);
+            
+        
 
-        var popup_ddbafdf35b1923f1a24eec8fba5edbef = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_2de7284fd27710fc2ca74eeb651e0587 = $(`<div id="html_2de7284fd27710fc2ca74eeb651e0587" style="width: 100.0%; height: 100.0%;">Offense: Intimidation<br>Date: 2023-10-06 11:45:00</div>`)[0];
-                popup_ddbafdf35b1923f1a24eec8fba5edbef.setContent(html_2de7284fd27710fc2ca74eeb651e0587);
-
-
-
-        marker_29a549db610a485568c545dedec74eb5.bindPopup(popup_ddbafdf35b1923f1a24eec8fba5edbef)
+        marker_b6304dd27752bb566cb529694771864b.bindPopup(popup_aabcf174a078259679d5a8bbb2b39f25)
         ;
 
-
-
-
-            var marker_6c0357143a7cc44ed17c91f7ba6639b9 = L.marker(
-                [47.66866614, -122.374901481],
+        
+    
+    
+            var marker_4cb8250d71b70bc48ac66a5f837f3047 = L.marker(
+                [47.677772, -122.3676304],
                 {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
+            ).addTo(map_16141386f7e29455f01bd7e65cb1cd92);
+        
+    
+        var popup_6da10f69afff719752b6e70fc43cdb0b = L.popup({"maxWidth": "100%"});
 
+        
+            
+                var html_1451d83ddf67855501c79543f77748ed = $(`<div id="html_1451d83ddf67855501c79543f77748ed" style="width: 100.0%; height: 100.0%;"><b>Date:</b> 9/19/2023<br><b>Location:</b> 6700 NW Dibble Ave, Seattle WA<br><b>Description:</b> 4:30pm 2 Victim(s), Pushed to the ground, kicked and punched, phone robbed. 5 Attackers approached in a car. Red Kia Soul. Gun, implied</div>`)[0];
+                popup_6da10f69afff719752b6e70fc43cdb0b.setContent(html_1451d83ddf67855501c79543f77748ed);
+            
+        
 
-        var popup_c8faa8dba81d1f48132dbb9fe19cd83d = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_99a8ed7cda2611f51d69d06120e9b5b6 = $(`<div id="html_99a8ed7cda2611f51d69d06120e9b5b6" style="width: 100.0%; height: 100.0%;">Offense: Intimidation<br>Date: 2023-10-05 18:05:00</div>`)[0];
-                popup_c8faa8dba81d1f48132dbb9fe19cd83d.setContent(html_99a8ed7cda2611f51d69d06120e9b5b6);
-
-
-
-        marker_6c0357143a7cc44ed17c91f7ba6639b9.bindPopup(popup_c8faa8dba81d1f48132dbb9fe19cd83d)
+        marker_4cb8250d71b70bc48ac66a5f837f3047.bindPopup(popup_6da10f69afff719752b6e70fc43cdb0b)
         ;
 
-
-
-
-            var marker_efacc360b6225f867b22e095cbd4bc58 = L.marker(
-                [47.68966673, -122.376802782],
+        
+    
+    
+            var marker_08e148b4599fd14dcc7a2c35731fe690 = L.marker(
+                [47.6813461, -122.3843254],
                 {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
+            ).addTo(map_16141386f7e29455f01bd7e65cb1cd92);
+        
+    
+        var popup_529e07b1738fd46e7fc218360c61d54d = L.popup({"maxWidth": "100%"});
 
+        
+            
+                var html_a67f3678ff35ae7888f53b4b621ec850 = $(`<div id="html_a67f3678ff35ae7888f53b4b621ec850" style="width: 100.0%; height: 100.0%;"><b>Date:</b> September<br><b>Location:</b> 7300 22nd Ave NW, Seattle WA<br><b>Description:</b> 1 Victim(s), unknown if assaulted, nothing robbed. Unknown # of Attackers</div>`)[0];
+                popup_529e07b1738fd46e7fc218360c61d54d.setContent(html_a67f3678ff35ae7888f53b4b621ec850);
+            
+        
 
-        var popup_8e58f69524b795fb840cec701d541303 = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_de3421c60e6bace5cb904c68b8c242cf = $(`<div id="html_de3421c60e6bace5cb904c68b8c242cf" style="width: 100.0%; height: 100.0%;">Offense: Simple Assault<br>Date: 2023-10-04 19:38:00</div>`)[0];
-                popup_8e58f69524b795fb840cec701d541303.setContent(html_de3421c60e6bace5cb904c68b8c242cf);
-
-
-
-        marker_efacc360b6225f867b22e095cbd4bc58.bindPopup(popup_8e58f69524b795fb840cec701d541303)
+        marker_08e148b4599fd14dcc7a2c35731fe690.bindPopup(popup_529e07b1738fd46e7fc218360c61d54d)
         ;
 
-
-
-
-            var marker_8620ac8762e9bc5c4ce2f9b43fa152ee = L.marker(
-                [0.0, 0.0],
+        
+    
+    
+            var marker_13f6f2496be950fa5f0e8a8c72dd9dcb = L.marker(
+                [47.6960589, -122.363375],
                 {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
+            ).addTo(map_16141386f7e29455f01bd7e65cb1cd92);
+        
+    
+        var popup_8f91d56b76740a95b67e970828614b1e = L.popup({"maxWidth": "100%"});
 
+        
+            
+                var html_b0635b21613762774fb627d421142e66 = $(`<div id="html_b0635b21613762774fb627d421142e66" style="width: 100.0%; height: 100.0%;"><b>Date:</b> 9/19/2023<br><b>Location:</b> 600 NW 92nd Ave, Seattle WA<br><b>Description:</b> 9:00pm 2 Victim(s), attacked walking home & thrown around/slapped then forced into vehicle, held for 15 min to give up phone pws, iPhone(s) robbed. 2+ Attackers Red Kia Soul. Gun implied</div>`)[0];
+                popup_8f91d56b76740a95b67e970828614b1e.setContent(html_b0635b21613762774fb627d421142e66);
+            
+        
 
-        var popup_51f3da00280374d265d6addc25a50e07 = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_9921fa1c0abef6d051484876fa4e6dc1 = $(`<div id="html_9921fa1c0abef6d051484876fa4e6dc1" style="width: 100.0%; height: 100.0%;">Offense: Intimidation<br>Date: 2023-10-03 00:00:00</div>`)[0];
-                popup_51f3da00280374d265d6addc25a50e07.setContent(html_9921fa1c0abef6d051484876fa4e6dc1);
-
-
-
-        marker_8620ac8762e9bc5c4ce2f9b43fa152ee.bindPopup(popup_51f3da00280374d265d6addc25a50e07)
+        marker_13f6f2496be950fa5f0e8a8c72dd9dcb.bindPopup(popup_8f91d56b76740a95b67e970828614b1e)
         ;
 
-
-
-
-            var marker_e93f926c0479877ca6a8f729ef3d49ee = L.marker(
-                [47.6858796, -122.3887078],
+        
+    
+    
+            var marker_d16b30531922c1e846c6d32a8861412f = L.marker(
+                [47.6774555, -122.3582562],
                 {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
+            ).addTo(map_16141386f7e29455f01bd7e65cb1cd92);
+        
+    
+        var popup_3124f5a6d09bf98b50d164739a1abfc5 = L.popup({"maxWidth": "100%"});
 
+        
+            
+                var html_3184976857c75b408ce51a8e5f712f2e = $(`<div id="html_3184976857c75b408ce51a8e5f712f2e" style="width: 100.0%; height: 100.0%;"><b>Date:</b> 10/18/2023<br><b>Location:</b> 6550 Sycamore Ave NW, Seattle WA<br><b>Description:</b> 7:45PM 1 Victim(s), shoved to ground and beat up, nothing robbed. 5 Attackers White Kia.</div>`)[0];
+                popup_3124f5a6d09bf98b50d164739a1abfc5.setContent(html_3184976857c75b408ce51a8e5f712f2e);
+            
+        
 
-        var popup_fba1172304e54d67fe91b76b37869548 = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_1f8145cff097c57f8a71e9256f12b05f = $(`<div id="html_1f8145cff097c57f8a71e9256f12b05f" style="width: 100.0%; height: 100.0%;">Offense: Simple Assault<br>Date: 2023-10-01 20:08:00</div>`)[0];
-                popup_fba1172304e54d67fe91b76b37869548.setContent(html_1f8145cff097c57f8a71e9256f12b05f);
-
-
-
-        marker_e93f926c0479877ca6a8f729ef3d49ee.bindPopup(popup_fba1172304e54d67fe91b76b37869548)
+        marker_d16b30531922c1e846c6d32a8861412f.bindPopup(popup_3124f5a6d09bf98b50d164739a1abfc5)
         ;
 
-
-
-
-            var marker_5c3665d4892d92a987ab08e2398f89cc = L.marker(
-                [47.68599796, -122.370396083],
+        
+    
+    
+            var marker_2198cc87d3564e22e950b6626b1fdecf = L.marker(
+                [47.6797134, -122.3738306],
                 {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
+            ).addTo(map_16141386f7e29455f01bd7e65cb1cd92);
+        
+    
+        var popup_6a24c8206b7dc16b36eee56cdc597308 = L.popup({"maxWidth": "100%"});
 
+        
+            
+                var html_b4b6fe82ada3a5396ea7b0bd159e919d = $(`<div id="html_b4b6fe82ada3a5396ea7b0bd159e919d" style="width: 100.0%; height: 100.0%;"><b>Date:</b> 10/19/2023<br><b>Location:</b> 1400 NW 70th St., Seattle WA<br><b>Description:</b> 3:45pm 2 Victim(s), told to sit on ground, not hurt, phones, Airpods robbed. 5 males 1 (high) female Attackers one approached, asked for directions. Kia. Gun, implied</div>`)[0];
+                popup_6a24c8206b7dc16b36eee56cdc597308.setContent(html_b4b6fe82ada3a5396ea7b0bd159e919d);
+            
+        
 
-        var popup_324edc0e394436d1904c085c20f7af30 = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_44f50f6ce70bdfc465b1b3c18164c358 = $(`<div id="html_44f50f6ce70bdfc465b1b3c18164c358" style="width: 100.0%; height: 100.0%;">Offense: Simple Assault<br>Date: 2023-10-28 14:03:00</div>`)[0];
-                popup_324edc0e394436d1904c085c20f7af30.setContent(html_44f50f6ce70bdfc465b1b3c18164c358);
-
-
-
-        marker_5c3665d4892d92a987ab08e2398f89cc.bindPopup(popup_324edc0e394436d1904c085c20f7af30)
+        marker_2198cc87d3564e22e950b6626b1fdecf.bindPopup(popup_6a24c8206b7dc16b36eee56cdc597308)
         ;
 
-
-
-
-            var marker_b2b305564b0c55d638166d310f020d65 = L.marker(
-                [47.68599796, -122.370396083],
+        
+    
+    
+            var marker_edd7de43429a5fbafcd0d8e3fb6dadb6 = L.marker(
+                [47.679558, -122.366121],
                 {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
+            ).addTo(map_16141386f7e29455f01bd7e65cb1cd92);
+        
+    
+        var popup_4de0e16540c8505382a443362ae04452 = L.popup({"maxWidth": "100%"});
 
+        
+            
+                var html_1e5386a0500e2e09523444bc21a3cc84 = $(`<div id="html_1e5386a0500e2e09523444bc21a3cc84" style="width: 100.0%; height: 100.0%;"><b>Date:</b> 10/19/2023<br><b>Location:</b> 800 NW 70th St., Seattle WA<br><b>Description:</b> 3:50pm 1 Victim(s), not assaulted, nothing robbed. 4 Attackers victim was texting, approached and told not to run or be shot in back. Gun</div>`)[0];
+                popup_4de0e16540c8505382a443362ae04452.setContent(html_1e5386a0500e2e09523444bc21a3cc84);
+            
+        
 
-        var popup_25ccfa289ccf70ccf886e9ebc85d0e52 = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_629fc0842bee3fcaf128f085b115b12f = $(`<div id="html_629fc0842bee3fcaf128f085b115b12f" style="width: 100.0%; height: 100.0%;">Offense: Intimidation<br>Date: 2023-10-28 14:03:00</div>`)[0];
-                popup_25ccfa289ccf70ccf886e9ebc85d0e52.setContent(html_629fc0842bee3fcaf128f085b115b12f);
-
-
-
-        marker_b2b305564b0c55d638166d310f020d65.bindPopup(popup_25ccfa289ccf70ccf886e9ebc85d0e52)
+        marker_edd7de43429a5fbafcd0d8e3fb6dadb6.bindPopup(popup_4de0e16540c8505382a443362ae04452)
         ;
 
-
-
-
-            var marker_cb09cd0b9326901887194034a7869e44 = L.marker(
-                [47.69243644, -122.374104014],
+        
+    
+    
+            var marker_1bf92a188ac8a4414e66f225503f0d28 = L.marker(
+                [47.68156099999999, -122.376503],
                 {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
+            ).addTo(map_16141386f7e29455f01bd7e65cb1cd92);
+        
+    
+        var popup_1b46a74f13a8ae739c247a4ed16a5a35 = L.popup({"maxWidth": "100%"});
 
+        
+            
+                var html_54cb8dfa62a09508bf66becf21fc412f = $(`<div id="html_54cb8dfa62a09508bf66becf21fc412f" style="width: 100.0%; height: 100.0%;"><b>Date:</b> 10/19/2023<br><b>Location:</b> 7300 15th Ave NW, Seattle WA<br><b>Description:</b> 3:40pm 1 Victim(s), injuries due to gun pressed on chest, iPhone robbed. 4 Attackers pulled over in a car, 4 surrounded victim, possibly 1 remaining in car. Gray sedan, perhaps Hyundai. Gun</div>`)[0];
+                popup_1b46a74f13a8ae739c247a4ed16a5a35.setContent(html_54cb8dfa62a09508bf66becf21fc412f);
+            
+        
 
-        var popup_3800fdbf1b14f8cb256d1b02be9dfb65 = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_7c319f42fe1aab48227dfab41a8f3e39 = $(`<div id="html_7c319f42fe1aab48227dfab41a8f3e39" style="width: 100.0%; height: 100.0%;">Offense: Intimidation<br>Date: 2023-10-26 20:14:00</div>`)[0];
-                popup_3800fdbf1b14f8cb256d1b02be9dfb65.setContent(html_7c319f42fe1aab48227dfab41a8f3e39);
-
-
-
-        marker_cb09cd0b9326901887194034a7869e44.bindPopup(popup_3800fdbf1b14f8cb256d1b02be9dfb65)
+        marker_1bf92a188ac8a4414e66f225503f0d28.bindPopup(popup_1b46a74f13a8ae739c247a4ed16a5a35)
         ;
 
-
-
-
-            var marker_3da89417f50ae6510b7c3850e3152645 = L.marker(
-                [47.66366306, -122.374858623],
+        
+    
+    
+            var marker_a44233d834fd1fce8a7e933a72ccfda5 = L.marker(
+                [47.6759905, -122.3799848],
                 {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
+            ).addTo(map_16141386f7e29455f01bd7e65cb1cd92);
+        
+    
+        var popup_4872ef6d23621f62eccd6225bae4df21 = L.popup({"maxWidth": "100%"});
 
+        
+            
+                var html_758f8485a5a23ee74292b31cc93a16d0 = $(`<div id="html_758f8485a5a23ee74292b31cc93a16d0" style="width: 100.0%; height: 100.0%;"><b>Date:</b> 10/20/2023<br><b>Location:</b> 1800 NW 65th St., Seattle WA<br><b>Description:</b> PM 1 Victim(s), , Macbook robbed. Unknown # of Attackers</div>`)[0];
+                popup_4872ef6d23621f62eccd6225bae4df21.setContent(html_758f8485a5a23ee74292b31cc93a16d0);
+            
+        
 
-        var popup_7dd48a54b64de2326db5034299e22954 = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_652f7ec2b82296b633a0d7c7b57e23a9 = $(`<div id="html_652f7ec2b82296b633a0d7c7b57e23a9" style="width: 100.0%; height: 100.0%;">Offense: Simple Assault<br>Date: 2023-10-26 00:17:00</div>`)[0];
-                popup_7dd48a54b64de2326db5034299e22954.setContent(html_652f7ec2b82296b633a0d7c7b57e23a9);
-
-
-
-        marker_3da89417f50ae6510b7c3850e3152645.bindPopup(popup_7dd48a54b64de2326db5034299e22954)
+        marker_a44233d834fd1fce8a7e933a72ccfda5.bindPopup(popup_4872ef6d23621f62eccd6225bae4df21)
         ;
 
-
-
-
-            var marker_67150c7db591c83dd18b70445b930039 = L.marker(
-                [47.68594342, -122.380010874],
+        
+    
+    
+            var marker_39c0a55724aabe2d4f9555de7310318a = L.marker(
+                [47.6686768, -122.3948822],
                 {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
+            ).addTo(map_16141386f7e29455f01bd7e65cb1cd92);
+        
+    
+        var popup_56ac5154279609c877174492216c44e9 = L.popup({"maxWidth": "100%"});
 
+        
+            
+                var html_d12b0d66d380649f75b948d6794f66b6 = $(`<div id="html_d12b0d66d380649f75b948d6794f66b6" style="width: 100.0%; height: 100.0%;"><b>Date:</b> 10/20/2023<br><b>Location:</b> 2850 NW Market St., Seattle WA<br><b>Description:</b> 5:00pm 1 Victim(s), , nothing robbed. 4 to 5 Attackers told victim (walking) to go to parking lot, then chased into alley. white Hyundai no plates.</div>`)[0];
+                popup_56ac5154279609c877174492216c44e9.setContent(html_d12b0d66d380649f75b948d6794f66b6);
+            
+        
 
-        var popup_3d28c623e62fbd93026dc1817700cc48 = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_75edfe345166646626994974018368a2 = $(`<div id="html_75edfe345166646626994974018368a2" style="width: 100.0%; height: 100.0%;">Offense: Simple Assault<br>Date: 2023-10-23 02:47:00</div>`)[0];
-                popup_3d28c623e62fbd93026dc1817700cc48.setContent(html_75edfe345166646626994974018368a2);
-
-
-
-        marker_67150c7db591c83dd18b70445b930039.bindPopup(popup_3d28c623e62fbd93026dc1817700cc48)
+        marker_39c0a55724aabe2d4f9555de7310318a.bindPopup(popup_56ac5154279609c877174492216c44e9)
         ;
 
-
-
-
-            var marker_03e6dc32943a9b3911c36113c8730498 = L.marker(
-                [47.66146817, -122.369692489],
+        
+    
+    
+            var marker_e00f16a439b34d5749017a809afd57be = L.marker(
+                [47.6887507, -122.3418293],
                 {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
+            ).addTo(map_16141386f7e29455f01bd7e65cb1cd92);
+        
+    
+        var popup_5f82193b5f7d2b747096a29ada2d1bb8 = L.popup({"maxWidth": "100%"});
 
+        
+            
+                var html_e17d6722519a3b15d6672b642c50351a = $(`<div id="html_e17d6722519a3b15d6672b642c50351a" style="width: 100.0%; height: 100.0%;"><b>Date:</b> 10/24/2023<br><b>Location:</b> Stone Ave N & N 82nd St<br><b>Description:</b> PM Victim(s), , Shoes robbed. Unknown # of Attackers victim got off bus & approached for electronics, didn't have any so they took his shoes. Gray Van.</div>`)[0];
+                popup_5f82193b5f7d2b747096a29ada2d1bb8.setContent(html_e17d6722519a3b15d6672b642c50351a);
+            
+        
 
-        var popup_df95a845e039f1a9bfaa822f1f135f17 = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_5e7899acf049dc1e2534908a71264413 = $(`<div id="html_5e7899acf049dc1e2534908a71264413" style="width: 100.0%; height: 100.0%;">Offense: Simple Assault<br>Date: 2023-10-22 10:19:00</div>`)[0];
-                popup_df95a845e039f1a9bfaa822f1f135f17.setContent(html_5e7899acf049dc1e2534908a71264413);
-
-
-
-        marker_03e6dc32943a9b3911c36113c8730498.bindPopup(popup_df95a845e039f1a9bfaa822f1f135f17)
+        marker_e00f16a439b34d5749017a809afd57be.bindPopup(popup_5f82193b5f7d2b747096a29ada2d1bb8)
         ;
 
-
-
-
-            var marker_6b50dd9df67c106779ddf93c0c6ff500 = L.marker(
-                [47.67018162, -122.3834381],
+        
+    
+    
+            var marker_c8084703799dee35903f472acd2b150b = L.marker(
+                [47.6792172, -122.3860312],
                 {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
+            ).addTo(map_16141386f7e29455f01bd7e65cb1cd92);
+        
+    
+        var popup_77322ce076745b4eab020891184f296f = L.popup({"maxWidth": "100%"});
 
+        
+            
+                var html_f343fbbec801842606d8b0b4d4fdb830 = $(`<div id="html_f343fbbec801842606d8b0b4d4fdb830" style="width: 100.0%; height: 100.0%;"><b>Date:</b> unknown<br><b>Location:</b> Ballard, Seattle WA<br><b>Description:</b> 1 Victim(s), pistol whipped, nothing robbed. Unknown # of Attackers Gun</div>`)[0];
+                popup_77322ce076745b4eab020891184f296f.setContent(html_f343fbbec801842606d8b0b4d4fdb830);
+            
+        
 
-        var popup_8ead1af1bf3205ba93fe9b3e10aba334 = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_2d149968cbcc022ec53d7b2e18e23ea0 = $(`<div id="html_2d149968cbcc022ec53d7b2e18e23ea0" style="width: 100.0%; height: 100.0%;">Offense: Intimidation<br>Date: 2023-10-21 10:31:00</div>`)[0];
-                popup_8ead1af1bf3205ba93fe9b3e10aba334.setContent(html_2d149968cbcc022ec53d7b2e18e23ea0);
-
-
-
-        marker_6b50dd9df67c106779ddf93c0c6ff500.bindPopup(popup_8ead1af1bf3205ba93fe9b3e10aba334)
+        marker_c8084703799dee35903f472acd2b150b.bindPopup(popup_77322ce076745b4eab020891184f296f)
         ;
 
-
-
-
-            var marker_d4fb94e064b123623a9694da36c54ca2 = L.marker(
-                [47.66982248, -122.387587291],
+        
+    
+    
+            var marker_251adb71e601e9fe3d9b94fb79d5d3f5 = L.marker(
+                [47.6887085, -122.3364142],
                 {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
+            ).addTo(map_16141386f7e29455f01bd7e65cb1cd92);
+        
+    
+        var popup_76690a4a38258f01ed922158fe7afcd4 = L.popup({"maxWidth": "100%"});
 
+        
+            
+                var html_9ca04872b0d7643bc505a529460389e1 = $(`<div id="html_9ca04872b0d7643bc505a529460389e1" style="width: 100.0%; height: 100.0%;"><b>Date:</b> 10/24/2023<br><b>Location:</b> 1800 N 82nd St, Seattle, WA<br><b>Description:</b> 4:25pm 1 Victim(s), , Phone robbed. 3-female Attackers approached victim walking to car, jumped out of vehicle. Dark Gray Minivan.</div>`)[0];
+                popup_76690a4a38258f01ed922158fe7afcd4.setContent(html_9ca04872b0d7643bc505a529460389e1);
+            
+        
 
-        var popup_c8f6df795fc3def5d6da3be1490809c0 = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_851fd7cc814931b7225bead1a3a469f1 = $(`<div id="html_851fd7cc814931b7225bead1a3a469f1" style="width: 100.0%; height: 100.0%;">Offense: Aggravated Assault<br>Date: 2023-10-21 07:45:00</div>`)[0];
-                popup_c8f6df795fc3def5d6da3be1490809c0.setContent(html_851fd7cc814931b7225bead1a3a469f1);
-
-
-
-        marker_d4fb94e064b123623a9694da36c54ca2.bindPopup(popup_c8f6df795fc3def5d6da3be1490809c0)
+        marker_251adb71e601e9fe3d9b94fb79d5d3f5.bindPopup(popup_76690a4a38258f01ed922158fe7afcd4)
         ;
 
-
-
-
-            var marker_294d9a104508d0b2daead62b23d3b72c = L.marker(
-                [47.66905321, -122.3735876],
+        
+    
+    
+            var marker_f3fc129799cf9e4e6965e6ba9a189734 = L.marker(
+                [47.6905603, -122.3445854],
                 {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
+            ).addTo(map_16141386f7e29455f01bd7e65cb1cd92);
+        
+    
+        var popup_884fabedbec2cc62b4fc5ba9d4983df2 = L.popup({"maxWidth": "100%"});
 
+        
+            
+                var html_25ee2ff08922d7b38ee7326e16caad41 = $(`<div id="html_25ee2ff08922d7b38ee7326e16caad41" style="width: 100.0%; height: 100.0%;"><b>Date:</b> 10/3/2023<br><b>Location:</b> N 85th St & Aurora Ave N<br><b>Description:</b> 1 Victim(s), slapped after demand to turn over valuables, nothing robbed. 1 Attackers approached waiting for the bus.</div>`)[0];
+                popup_884fabedbec2cc62b4fc5ba9d4983df2.setContent(html_25ee2ff08922d7b38ee7326e16caad41);
+            
+        
 
-        var popup_eac86221fc9fd21c220e0a5d4b474125 = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_1903c65b0f0fb29eeec3ff071ad550d7 = $(`<div id="html_1903c65b0f0fb29eeec3ff071ad550d7" style="width: 100.0%; height: 100.0%;">Offense: Simple Assault<br>Date: 2023-10-20 02:00:00</div>`)[0];
-                popup_eac86221fc9fd21c220e0a5d4b474125.setContent(html_1903c65b0f0fb29eeec3ff071ad550d7);
-
-
-
-        marker_294d9a104508d0b2daead62b23d3b72c.bindPopup(popup_eac86221fc9fd21c220e0a5d4b474125)
+        marker_f3fc129799cf9e4e6965e6ba9a189734.bindPopup(popup_884fabedbec2cc62b4fc5ba9d4983df2)
         ;
 
-
-
-
-            var marker_c6af5a11057891a47cf148ebdbc69a8b = L.marker(
-                [47.66097045, -122.366681802],
+        
+    
+    
+            var marker_597244783ef2191e1ef8c8f61676500b = L.marker(
+                [47.5809705, -122.2919148],
                 {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
+            ).addTo(map_16141386f7e29455f01bd7e65cb1cd92);
+        
+    
+        var popup_ffa12f0dd2641d39ce8b83cf3906187f = L.popup({"maxWidth": "100%"});
 
+        
+            
+                var html_ab2bc0d3a71134e4c7c1e43004bb0b8c = $(`<div id="html_ab2bc0d3a71134e4c7c1e43004bb0b8c" style="width: 100.0%; height: 100.0%;"><b>Date:</b> around 10/25/23<br><b>Location:</b> 32nd Ave S & S Bayview St<br><b>Description:</b> 3:45pm 1 Victim(s), threatened with being maced, Phone robbed. 2- female Attackers approached in a car. Mace</div>`)[0];
+                popup_ffa12f0dd2641d39ce8b83cf3906187f.setContent(html_ab2bc0d3a71134e4c7c1e43004bb0b8c);
+            
+        
 
-        var popup_32ec47e354a850a75a6d7e932df75126 = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_f8907dc61a8642d744f945d664880c6e = $(`<div id="html_f8907dc61a8642d744f945d664880c6e" style="width: 100.0%; height: 100.0%;">Offense: Intimidation<br>Date: 2023-10-20 06:55:00</div>`)[0];
-                popup_32ec47e354a850a75a6d7e932df75126.setContent(html_f8907dc61a8642d744f945d664880c6e);
-
-
-
-        marker_c6af5a11057891a47cf148ebdbc69a8b.bindPopup(popup_32ec47e354a850a75a6d7e932df75126)
+        marker_597244783ef2191e1ef8c8f61676500b.bindPopup(popup_ffa12f0dd2641d39ce8b83cf3906187f)
         ;
 
-
-
-
-            var marker_6f9905c07194b23d76f1c1310e9c20ca = L.marker(
-                [47.66365981, -122.3721802],
+        
+    
+    
+            var marker_75988c87a24188a18417ec7ce062f3be = L.marker(
+                [47.6898331, -122.3444264],
                 {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
+            ).addTo(map_16141386f7e29455f01bd7e65cb1cd92);
+        
+    
+        var popup_bc467a21ebdd53c664ef410da0333f4a = L.popup({"maxWidth": "100%"});
 
+        
+            
+                var html_c9e0791de33b7ae0ae6afc47a8711712 = $(`<div id="html_c9e0791de33b7ae0ae6afc47a8711712" style="width: 100.0%; height: 100.0%;"><b>Date:</b> 10/24/2023<br><b>Location:</b> 1100 N 84th St, Seattle WA<br><b>Description:</b> 4:35pm 1 Victim(s), grabbed, thrown down, kicked and punched in face, Phone robbed. 3 Attackers approached in a car.</div>`)[0];
+                popup_bc467a21ebdd53c664ef410da0333f4a.setContent(html_c9e0791de33b7ae0ae6afc47a8711712);
+            
+        
 
-        var popup_06c853acd030ed7e6bc3e583032307ed = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_eaae1a0a3ba09e8871ed4aac20cfcada = $(`<div id="html_eaae1a0a3ba09e8871ed4aac20cfcada" style="width: 100.0%; height: 100.0%;">Offense: Aggravated Assault<br>Date: 2023-10-17 12:15:00</div>`)[0];
-                popup_06c853acd030ed7e6bc3e583032307ed.setContent(html_eaae1a0a3ba09e8871ed4aac20cfcada);
-
-
-
-        marker_6f9905c07194b23d76f1c1310e9c20ca.bindPopup(popup_06c853acd030ed7e6bc3e583032307ed)
+        marker_75988c87a24188a18417ec7ce062f3be.bindPopup(popup_bc467a21ebdd53c664ef410da0333f4a)
         ;
 
-
-
-
-            var marker_ea30daff43f37d3b5b21ab607d0611b1 = L.marker(
-                [47.67017314, -122.377548124],
+        
+    
+    
+            var marker_9d3449c2c977a0485c6f3fbaeda46571 = L.marker(
+                [47.6757999, -122.3108485],
                 {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
+            ).addTo(map_16141386f7e29455f01bd7e65cb1cd92);
+        
+    
+        var popup_f28d34fab99983a11f98ea0a74877f3f = L.popup({"maxWidth": "100%"});
 
+        
+            
+                var html_4825e8b0082e0f971ff990ad2cdcbd8a = $(`<div id="html_4825e8b0082e0f971ff990ad2cdcbd8a" style="width: 100.0%; height: 100.0%;"><b>Date:</b> 10/24/2023<br><b>Location:</b> NE 65th St & 16th Ave NE<br><b>Description:</b> 4:45pm 1 Victim(s), , unknown items robbed. Unknown # of Attackers</div>`)[0];
+                popup_f28d34fab99983a11f98ea0a74877f3f.setContent(html_4825e8b0082e0f971ff990ad2cdcbd8a);
+            
+        
 
-        var popup_e981ce12d9222487a9388ea994024179 = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_0042249f3201869b4481a1aedc0b6051 = $(`<div id="html_0042249f3201869b4481a1aedc0b6051" style="width: 100.0%; height: 100.0%;">Offense: Intimidation<br>Date: 2023-10-17 08:15:00</div>`)[0];
-                popup_e981ce12d9222487a9388ea994024179.setContent(html_0042249f3201869b4481a1aedc0b6051);
-
-
-
-        marker_ea30daff43f37d3b5b21ab607d0611b1.bindPopup(popup_e981ce12d9222487a9388ea994024179)
+        marker_9d3449c2c977a0485c6f3fbaeda46571.bindPopup(popup_f28d34fab99983a11f98ea0a74877f3f)
         ;
 
-
-
-
-            var marker_a3700f35b0d2d20e034d8273b59b75e7 = L.marker(
-                [47.68966673, -122.376802782],
+        
+    
+    
+            var marker_afb966879b038cedfceac43c05b60d84 = L.marker(
+                [47.5750095, -122.2823952],
                 {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
+            ).addTo(map_16141386f7e29455f01bd7e65cb1cd92);
+        
+    
+        var popup_97cc3b8a7fdb71989c19815ef18e7ea2 = L.popup({"maxWidth": "100%"});
 
+        
+            
+                var html_2a372367b17c010b3a3f366c5b36cf9d = $(`<div id="html_2a372367b17c010b3a3f366c5b36cf9d" style="width: 100.0%; height: 100.0%;"><b>Date:</b> 10/29/2023<br><b>Location:</b> 3200 Lakewood Ave S<br><b>Description:</b> 11:30AM 1 Victim(s), beaten, phone robbed. 3 - teen Attackers approached in a car. white Kia.</div>`)[0];
+                popup_97cc3b8a7fdb71989c19815ef18e7ea2.setContent(html_2a372367b17c010b3a3f366c5b36cf9d);
+            
+        
 
-        var popup_345ad102ee2e5f063e0863cbd002aeec = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_38205fba44fbcf97a15de046c3ab1bf7 = $(`<div id="html_38205fba44fbcf97a15de046c3ab1bf7" style="width: 100.0%; height: 100.0%;">Offense: Simple Assault<br>Date: 2023-10-16 19:30:00</div>`)[0];
-                popup_345ad102ee2e5f063e0863cbd002aeec.setContent(html_38205fba44fbcf97a15de046c3ab1bf7);
-
-
-
-        marker_a3700f35b0d2d20e034d8273b59b75e7.bindPopup(popup_345ad102ee2e5f063e0863cbd002aeec)
+        marker_afb966879b038cedfceac43c05b60d84.bindPopup(popup_97cc3b8a7fdb71989c19815ef18e7ea2)
         ;
 
-
-
-
-            var marker_0a7c8dbb956f9d0f6b40a74cecc2892b = L.marker(
-                [47.669819, -122.384743],
-                {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
-
-
-        var popup_7782a03786f39f2c15427bffbca1842c = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_c45793adcc6ef9a5b4dec2a2d1f43683 = $(`<div id="html_c45793adcc6ef9a5b4dec2a2d1f43683" style="width: 100.0%; height: 100.0%;">Offense: Simple Assault<br>Date: 2023-10-15 20:30:00</div>`)[0];
-                popup_7782a03786f39f2c15427bffbca1842c.setContent(html_c45793adcc6ef9a5b4dec2a2d1f43683);
-
-
-
-        marker_0a7c8dbb956f9d0f6b40a74cecc2892b.bindPopup(popup_7782a03786f39f2c15427bffbca1842c)
-        ;
-
-
-
-
-            var marker_18386c57fbd30c7f8dee21d8dcff6f41 = L.marker(
-                [47.66794819, -122.380873513],
-                {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
-
-
-        var popup_b123733249429c1edc48322d51cd025e = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_65ec99fa07eea52f726a3829b65e7b66 = $(`<div id="html_65ec99fa07eea52f726a3829b65e7b66" style="width: 100.0%; height: 100.0%;">Offense: Simple Assault<br>Date: 2023-10-13 21:36:00</div>`)[0];
-                popup_b123733249429c1edc48322d51cd025e.setContent(html_65ec99fa07eea52f726a3829b65e7b66);
-
-
-
-        marker_18386c57fbd30c7f8dee21d8dcff6f41.bindPopup(popup_b123733249429c1edc48322d51cd025e)
-        ;
-
-
-
-
-            var marker_e5c5062144490dd84b41229065388c69 = L.marker(
-                [47.66794819, -122.380873513],
-                {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
-
-
-        var popup_960959e0ec14c135c99e2643a6106127 = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_fc61802e2da17656fbfbd96a2043d353 = $(`<div id="html_fc61802e2da17656fbfbd96a2043d353" style="width: 100.0%; height: 100.0%;">Offense: Aggravated Assault<br>Date: 2023-10-13 21:36:00</div>`)[0];
-                popup_960959e0ec14c135c99e2643a6106127.setContent(html_fc61802e2da17656fbfbd96a2043d353);
-
-
-
-        marker_e5c5062144490dd84b41229065388c69.bindPopup(popup_960959e0ec14c135c99e2643a6106127)
-        ;
-
-
-
-
-            var marker_dfd21e088eadeb1196c35d7c217b7e3f = L.marker(
-                [47.68966673, -122.376802782],
-                {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
-
-
-        var popup_da9f82fef9bb7c2bd3dddfcc15d48f7f = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_6b9051a60921c3b5fae60f9a40afb79d = $(`<div id="html_6b9051a60921c3b5fae60f9a40afb79d" style="width: 100.0%; height: 100.0%;">Offense: Aggravated Assault<br>Date: 2023-10-13 21:26:00</div>`)[0];
-                popup_da9f82fef9bb7c2bd3dddfcc15d48f7f.setContent(html_6b9051a60921c3b5fae60f9a40afb79d);
-
-
-
-        marker_dfd21e088eadeb1196c35d7c217b7e3f.bindPopup(popup_da9f82fef9bb7c2bd3dddfcc15d48f7f)
-        ;
-
-
-
-
-            var marker_3bfe136f437cf74e20f00363002b41cb = L.marker(
-                [0.0, 0.0],
-                {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
-
-
-        var popup_5b97a4d540e1e6f7ac409c986acd1290 = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_ca1f1d9e7d2c6a71f43eb88fe3bc1fb8 = $(`<div id="html_ca1f1d9e7d2c6a71f43eb88fe3bc1fb8" style="width: 100.0%; height: 100.0%;">Offense: Simple Assault<br>Date: 2023-10-12 15:58:00</div>`)[0];
-                popup_5b97a4d540e1e6f7ac409c986acd1290.setContent(html_ca1f1d9e7d2c6a71f43eb88fe3bc1fb8);
-
-
-
-        marker_3bfe136f437cf74e20f00363002b41cb.bindPopup(popup_5b97a4d540e1e6f7ac409c986acd1290)
-        ;
-
-
-
-
-            var marker_3a42b83932d872028de8327ba38fa78e = L.marker(
-                [47.66794819, -122.380873513],
-                {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
-
-
-        var popup_c55a714c98312f3f7813c32fe51d902e = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_6625ab064060b1c0c295b920673e7838 = $(`<div id="html_6625ab064060b1c0c295b920673e7838" style="width: 100.0%; height: 100.0%;">Offense: Aggravated Assault<br>Date: 2023-10-12 06:59:00</div>`)[0];
-                popup_c55a714c98312f3f7813c32fe51d902e.setContent(html_6625ab064060b1c0c295b920673e7838);
-
-
-
-        marker_3a42b83932d872028de8327ba38fa78e.bindPopup(popup_c55a714c98312f3f7813c32fe51d902e)
-        ;
-
-
-
-
-            var marker_3d5fb344ff835bfec3e9ca23303bc922 = L.marker(
-                [47.67018162, -122.383438059],
-                {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
-
-
-        var popup_080be12fd60497515ccc4d70621eeea7 = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_5e6a81ed0c1953ed5eb0b2caec699ae2 = $(`<div id="html_5e6a81ed0c1953ed5eb0b2caec699ae2" style="width: 100.0%; height: 100.0%;">Offense: Simple Assault<br>Date: 2023-10-11 07:07:00</div>`)[0];
-                popup_080be12fd60497515ccc4d70621eeea7.setContent(html_5e6a81ed0c1953ed5eb0b2caec699ae2);
-
-
-
-        marker_3d5fb344ff835bfec3e9ca23303bc922.bindPopup(popup_080be12fd60497515ccc4d70621eeea7)
-        ;
-
-
-
-
-            var marker_88e1fa4497e27268e5c390dbdf5a9d8b = L.marker(
-                [47.66716479, -122.377551],
-                {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
-
-
-        var popup_3d72ebc11607ad1ec184ed7fe858e968 = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_09bfc233641140640c2d0559409f0b14 = $(`<div id="html_09bfc233641140640c2d0559409f0b14" style="width: 100.0%; height: 100.0%;">Offense: Aggravated Assault<br>Date: 2023-10-10 15:50:00</div>`)[0];
-                popup_3d72ebc11607ad1ec184ed7fe858e968.setContent(html_09bfc233641140640c2d0559409f0b14);
-
-
-
-        marker_88e1fa4497e27268e5c390dbdf5a9d8b.bindPopup(popup_3d72ebc11607ad1ec184ed7fe858e968)
-        ;
-
-
-
-
-            var marker_7135323f05e1f897e7317cee814a1e05 = L.marker(
-                [47.66867106, -122.378152947],
-                {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
-
-
-        var popup_b47c33ec173e39861825c3fd18ec962c = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_61cf2e78b16cc558d2fada486aff1cab = $(`<div id="html_61cf2e78b16cc558d2fada486aff1cab" style="width: 100.0%; height: 100.0%;">Offense: Intimidation<br>Date: 2023-10-10 08:48:00</div>`)[0];
-                popup_b47c33ec173e39861825c3fd18ec962c.setContent(html_61cf2e78b16cc558d2fada486aff1cab);
-
-
-
-        marker_7135323f05e1f897e7317cee814a1e05.bindPopup(popup_b47c33ec173e39861825c3fd18ec962c)
-        ;
-
-
-
-
-            var marker_4c6afa1f775dbe0a6cfc1cc767f4919c = L.marker(
-                [0.0, 0.0],
-                {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
-
-
-        var popup_95163822ca816a3c0ef1dcd43d1c5340 = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_457cbf02f1dbac220ee8da701b180863 = $(`<div id="html_457cbf02f1dbac220ee8da701b180863" style="width: 100.0%; height: 100.0%;">Offense: Intimidation<br>Date: 2023-10-10 07:13:00</div>`)[0];
-                popup_95163822ca816a3c0ef1dcd43d1c5340.setContent(html_457cbf02f1dbac220ee8da701b180863);
-
-
-
-        marker_4c6afa1f775dbe0a6cfc1cc767f4919c.bindPopup(popup_95163822ca816a3c0ef1dcd43d1c5340)
-        ;
-
-
-
-
-            var marker_2f92831af64ad9e5eae14f83db42dedf = L.marker(
-                [47.66438558, -122.369687854],
-                {}
-            ).addTo(map_a6ec998c5c06825b4f5405390b1f7819);
-
-
-        var popup_af0685b39f65a69805b5754a11dfa772 = L.popup({"maxWidth": "100%"});
-
-
-
-                var html_37ebf48ae6d53f465fde248805e6c315 = $(`<div id="html_37ebf48ae6d53f465fde248805e6c315" style="width: 100.0%; height: 100.0%;">Offense: Simple Assault<br>Date: 2023-10-01 11:55:00</div>`)[0];
-                popup_af0685b39f65a69805b5754a11dfa772.setContent(html_37ebf48ae6d53f465fde248805e6c315);
-
-
-
-        marker_2f92831af64ad9e5eae14f83db42dedf.bindPopup(popup_af0685b39f65a69805b5754a11dfa772)
-        ;
-
-
-
+        
+    
 </script>
 </html>
