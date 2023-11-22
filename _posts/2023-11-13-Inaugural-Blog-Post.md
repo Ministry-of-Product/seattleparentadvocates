@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Inaugural Blog Post"
-date: 2023-11-13
+date: 2023-11-22
 ---
 
 It began on September 15, 2023. As far as we know.
@@ -24,7 +24,7 @@ I should take a moment here to acknowledge that crime is happening all around us
 
 It was asked if we could map these incidents, so I did. I used google maps and produced a pretty clunky and inelegant, however demonstrative map. Parents made calls and emailed State Reps, City Councilmembers, SPS School Board members, Principals, SPD Representatives and just about anyone else we could think of. Soon, patrols and the ever impressive Police RV (although of questionable utility in mostly single car lane passable streets), appeared in Ballard.
 
-Soon, summary level and generalized information (acknowledgement) from Seattle Public Schools and Seattle Police department did follow.
+Soon, summary level and generalized information from Seattle Public Schools and Seattle Police department did follow.
 
 WE DID IT!  or did we?
 
@@ -40,7 +40,7 @@ This rendered the two of the instructions given to students rather useless. 1-Do
 
 Attackers almost always approached and took off in a (stolen) car. So what IS helpful - knowing the description of the stolen car being used. The attackers tend to steal a car- usually a Kia*** and use it for a few weeks until it’s time to switch it up. It’s nice to be able to tell your kids to watch out for “a white Kia”, or “a gray van or minivan” or at least be familiar with the pattern of cars, rather than just instruct them to be afraid of all cars resulting in a rather useless miasma of generalized fear that usually fatigues. Knowing that they are mostly attacking in a pattern after school release (our attackers don’t like the AM) may help some families make different transportation choices. Also, if this spate of crime against students around schools were to crop up again, we could use location information to mobilize Block Watch and walking group communications.
 
-**This is where YOU come in.** This Crime Map data is crowd sourced. We do not receive any information directly from Seattle Police, as their public facing crime reporting tools filter out crimes against minors. Seattle Public Schools has to date not been involved in direct parent/family communications about discrete incidents, only summarizations with the “call 911 on your just now stolen phone, wear sneakers you can beat feet in” type of instructions. We will try to get posts up as quickly as we can (please remember we’re volunteers with no official capacity, we’ll do our best). We figure some information is better than none, and none felt like what we were getting until we informed each other.
+**This is where YOU come in.** We have realized that we were not going to get actionable, timely information from our institutions. We need to crowdsource this for ourselves. We do not receive any information directly from Seattle Police, as their public facing crime reporting tools filter out crimes against minors. Seattle Public Schools has to date not been involved in direct parent/family communications about discrete incidents, only summarizations with the “call 911 on your just now stolen phone, wear sneakers you can beat feet in” type of instructions. We will try to get posts up as quickly as we can (please remember we’re volunteers with no official capacity, we’ll do our best). We figure some information is better than none, and we can help each other in this space by sharing.
 
 **Your report may be the only way others in the community know that students are again being targeted.** Having said that, please double check the map before you report to ensure you’re not reporting a duplicate incident. You can report if you’re not the victim or related to the victim. Anyone can report and we prefer not to know how you’re related or unrelated to the victim. We DEFINITELY don’t want any hunches even or direct knowledge of the identities of attackers. Please report that to law enforcement. We are not forwarding these reports anywhere, we have no official relationship or ties to any agencies.
 
