@@ -5,7 +5,7 @@ permalink: /crimemap/
 ---
 ### Please call 911 if you are experiencing an emergency or would like to report a crime.
 
-The following are self reported robberies that have happened with students in our community.
+The following are self reported robberies that have happened with students in our community. Click on each marker for details.
 
 
 <iframe src="/crime_map.html" style="width:100%; height:600px;">
