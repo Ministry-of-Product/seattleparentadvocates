@@ -20,7 +20,7 @@ My trade includes a certain degree of data wonkiness. So my first instinct was t
 
 We were all shocked to realize that with our data alone we had identified 17 incidents that occurred in just 5-6 weeks, admittedly self reported and unofficial. Many included violence, and the observed or implied presence of a gun. In one case, kids were abducted for a period of time (it seems about 15 minutes) and driven around in a stolen car in order to scare passwords for an iPhone out of one.
 
-I should take a moment here to acknowledge that crime is happening all around us, that’s part of living in a city. Also, crime against students is not new. However the frequency and severity of these attacks did seem different, and was causing many kids to suddenly feel very unsafe in the space between school and home. In the midst of thinking, “someone should really do something”, it dawned on some of us that “someone” might have to be us.
+I should take a moment here to acknowledge that crime is happening all around us, that’s part of living in a city. Also, crime against students is not new. However the frequency and severity of these attacks did seem different, and was causing many kids to suddenly feel very unsafe in the space between school and home. In the midst of thinking, “someone should really do something”, it dawned on some of us that “someone” might have to be...
 
 It was asked if we could map these incidents, so I did. I used google maps and produced a pretty clunky and inelegant, however demonstrative map. Parents made calls and emailed State Reps, City Councilmembers, SPS School Board members, Principals, SPD Representatives and just about anyone else we could think of. Soon, patrols and the ever impressive Police RV (although of questionable utility in mostly single car lane passable streets), appeared in Ballard.
 
@@ -34,7 +34,7 @@ As we made more noise and the SPD show of force in Ballard proceeded, we noticed
 
 **We learned that kids are easy targets.** They are easily identifiable, tend to show up in a fairly predictable pattern (around schools, set release times) and are always carrying phones. They don’t have to be flashing them for attackers to know they have them. In most cases, the robbers used conversational ruses or just plain demanded the victims’ phones. Usually specifying iPhones.
 
-This rendered the two of the instructions given to students rather useless. 1-Don’t flash your phones (duh they know you have one) and 2- Call 911 if you’ve been robbed.  …  🤔 ..
+This rendered the two of the instructions given to students rather useless. 1-Don’t flash your phones (duh they know you have one) and 2- Call 911 if you’ve been robbed.  …  🤔 ..  Families need another plan.  The discussions need to be had that phones can be replaced, and what to do if you're left phoneless.
 
 **It may be helpful to have a “safe place” plan** if your student is rendered injured/robbed and scared. Thinking clearly is tough for anyone under those circumstances. If they are closer to the school than home, maybe return to the school for assistance? Are there trusted neighbors nearby to rely upon? Is there a public place with cameras, such as a gas station/police/fire station nearby to drive to if your student fears they are being followed?
 
