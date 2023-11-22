@@ -50,7 +50,7 @@ At least as far as the phones are concerned, I’ve been informed by SPD that th
 
 **NOTE YOUR IMEI/MEID and hardware serial numbers to report to law enforcement as they can work with these kiosks to flag your device as stolen.**
 
-In case you’re wondering, “What’s up with the Kias?”  If you have one, look up your model and think about a [Club](https://www.amazon.com/Club-1000-Original-Steering-Wheel/dp/B0000CBILL/) or hiding an [AirTag](https://www.amazon.com/Apple-MX532AM-A-AirTag/dp/B0933BVK6T/) in your car.  Also check out this first article with some resources at the bottom for a software update. ***
+***In case you’re wondering, “What’s up with the Kias?”  If you have one, look up your model and think about a [Club](https://www.amazon.com/Club-1000-Original-Steering-Wheel/dp/B0000CBILL/) or hiding an [AirTag](https://www.amazon.com/Apple-MX532AM-A-AirTag/dp/B0933BVK6T/) in your car.  Also check out this first article with some resources at the bottom for a software update.
 
 
 [First article on Vox about Kia and Hyundai thefts](https://www.vox.com/technology/2023/6/1/23742757/kia-hyundai-challenge-tiktok-instagram-youtube)
